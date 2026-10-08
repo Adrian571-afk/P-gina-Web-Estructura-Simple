@@ -1,0 +1,90 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 0px;
+}
+
+/*-----Header-----*/
+#inicio{
+    background-color: #fff;
+    height:15vh; 
+}
+
+    #titulos{
+        font-family: "Bitcount Single", system-ui;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 10vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+/*-----Secciones-----*/
+
+.contenedor{
+    text-align: center;
+    padding: 70px;
+}
+
+/*-----Sección imagen y texto-----*/
+figure{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    #img_ruk{
+            width: 50%;
+            margin: 20px;
+            float: left;
+        }
+
+        figcaption{
+            font-size: 1.5rem;
+            text-align: justify;
+            padding: 60px;
+            
+        }
+
+        figcaption::first-letter{
+            font-size: 2rem;
+            float: left;
+            margin-right: 5px;
+        }
+
+/*-----Sección articulos-----*/
+.contenedor-articulos {
+    text-align: center; 
+    padding: 0 70px; 
+}
+
+.contenedor-articulos article {
+    width: 30%; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 0 1.5%; 
+}
+
+    .material-symbols-outlined {
+    font-size: 48px; 
+    margin-bottom: 15px; 
+    color: blueviolet;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+        p span{
+            font-size: 1.5rem;
+            font-family: Bubbler, cursive;
+        }
